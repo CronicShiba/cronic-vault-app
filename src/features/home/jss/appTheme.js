@@ -5,10 +5,10 @@ const createThemeMode = isNightMode =>
     palette: {
       type: isNightMode ? 'dark' : 'light',
       background: {
-        default: isNightMode ? '#242332' : '#fbf9f6',
-        paper: isNightMode ? '#606077' : '#fff',
-        primary: isNightMode ? '#505067' : '#FBF6F0',
-        secondary: isNightMode ? '#3B3A4D' : '#F8F2EC',
+        default: isNightMode ? '#2b0417' : '#fbf9f6',
+        paper: isNightMode ? '#411e2f' : '#411e2f',
+        primary: isNightMode ? '#411e2f' : '#411e2f',
+        secondary: isNightMode ? '#411e2f' : '#411e2f',
         extra: isNightMode ? '#242332' : '#FBF6F0',
         dark: isNightMode ? '#2B2A3D' : '#999',
         paused: isNightMode ? '#2B2A5A' : '#FCE57E',

@@ -50,16 +50,16 @@ const Header = ({ links, isNightMode, setNightMode }) => {
             <Hidden xsDown>
               <img
                 alt="BIFI"
-                src={require(`images/BIFI-logo.svg`)}
+                src={require(`images/cronic-header-logo.png`)}
                 height={'40px'}
                 className={classes.logo}
               />
-              beefy.finance
+              Vaults
             </Hidden>
             <Hidden smUp>
               <img
                 alt="BIFI"
-                src={require(`images/BIFI-logo.svg`)}
+                src={require(`images/cronic-header-logo.png`)}
                 height={'35px'}
                 className={classes.logo}
               />
@@ -69,19 +69,19 @@ const Header = ({ links, isNightMode, setNightMode }) => {
 
         <div className={classes.middleNav}>
           <Hidden smDown>
-            {renderLink('vote', t('vote'), 'vote-yea', classes)}
+            {/* {renderLink('vote', t('vote'), 'vote-yea', classes)} */}
             {renderLink('dashboard', t('stats'), 'chart-bar', classes)}
             {renderLink('docs', t('docs'), 'book', classes)}
-            {renderLink('blog', t('blog'), 'file-alt', classes)}
-            <InsureLink t={t} classes={classes} />
+            {/* {renderLink('blog', t('blog'), 'file-alt', classes)} */}
+            {/* <InsureLink t={t} classes={classes} /> */}
           </Hidden>
-          <Transak style={{ marginLeft: '5px', marginRight: '5px' }} className={classes.link}>
+          {/* <Transak style={{ marginLeft: '5px', marginRight: '5px' }} className={classes.link}>
             <i className={`fas fa-credit-card ${classes.icon}`} />
             {t('buy')}
-          </Transak>
-          <Link className={classes.btnBoost} to={`/${chain}/stake`}>
+          </Transak> */}
+          {/* <Link className={classes.btnBoost} to={`/${chain}/stake`}>
             <img alt="Boost" src={require('images/stake/boost.svg')} />
-          </Link>
+          </Link> */}
         </div>
 
         <Hidden smDown implementation="css">

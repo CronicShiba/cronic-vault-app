@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <div className={classes.root}>
       <div className={classes.column}>
-        <div className={classes.title}>beefy.finance</div>
+        {/* <div className={classes.title}>beefy.finance</div>
         <a
           href="https://docs.beefy.finance"
           target="_blank"
@@ -118,7 +118,7 @@ const Footer = () => {
         >
           <i className={`fab fa-discord ${classes.linkIcon}`} />
           <span>discord</span>
-        </a>
+        </a> */}
       </div>
     </div>
   );
